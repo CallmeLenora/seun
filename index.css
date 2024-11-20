@@ -1,0 +1,886 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(41, 41, 43);
+}
+
+.fline {
+    border: 1px;
+    width: 1400px;
+    background-color: #29292C;
+    position: fixed;
+
+}
+
+.b1fline {
+    border: 1px;
+    height: 100px;
+    width: 20%;
+    float: left;
+}
+
+.img1 {
+    height: 80px;
+}
+
+.ul1 {
+    border: 1px;
+    list-style-type: none;
+    float: left
+}
+
+.thoru {
+    color: white;
+    text-decoration: none;
+}
+
+.thoru>a {
+    color: white;
+}
+
+li {
+    float: left;
+    padding: 40px 10px;
+    margin-left: 30px;
+    color: white;
+}
+
+li>a {
+    text-decoration: none;
+}
+
+.search {
+    border: 1px solid;
+    height: 40px;
+    width: 40px;
+    margin-left: 700px;
+    margin-top: -70px;
+    padding: 10px;
+    float: left;
+    background-color: #3D3E44;
+    border-radius: 18px;
+}
+
+.search:hover {
+    border: 1px solid;
+    color: white;
+}
+
+.navBtn {
+    border-radius: 20px;
+    background-color: #CE2D2D;
+    color: white;
+    height: 40px;
+    width: 15%;
+    border: none;
+    margin-left: 320px;
+    font-size: larger;
+}
+
+.blog {
+    color: yellow;
+}
+
+.navBtn:hover {
+    border: 1px solid white;
+}
+
+.giant {
+    border: 1px;
+    width: 40%;
+    margin-left: 200px;
+    margin-top: 30px;
+}
+
+.gr {
+    font-size: xx-large;
+    font-family: callbre;
+    color: white;
+}
+
+.wbt {
+    font-size: x-large;
+    font-family: calibre web;
+    color: white;
+}
+
+.tl {
+    border: 1px solid gray;
+    opacity: 0.3;
+    margin-top: 55px;
+    margin-left: 200px;
+    width: 60%;
+}
+
+.btn {
+    border: 1px;
+    height: 50px;
+    width: 60%;
+    margin-left: 200px;
+    margin-top: 30px;
+}
+
+button {
+    margin: 5px;
+    height: 40px;
+    width: 10%;
+    border-radius: 20px;
+    border: 1px solid white;
+    color: white;
+    background-color: rgb(41, 41, 43);
+}
+
+.more {
+    color: white;
+}
+
+button:hover {
+    border: 2px solid yellow;
+    color: yellow;
+}
+
+.s2 {
+    border: 1px red;
+    min-height: 200px;
+    width: 70%;
+    margin-left: 200px;
+}
+
+.s2h2 {
+    border: 1px;
+    margin-top: 10px;
+}
+
+.s2h2>a {
+    text-decoration: none;
+    color: white;
+    font-size: xx-large;
+}
+
+.s2h2>a:hover {
+    color: yellow;
+}
+
+.mfd {
+    color: white;
+}
+
+.s2h4>a {
+    text-decoration: none;
+    color: yellow;
+
+}
+
+.s2h4>a:hover {
+    color: white;
+
+}
+
+.s2h4 {
+    color: white;
+}
+
+.ptmr {
+    color: white;
+    font-size: small
+}
+
+.ptmr>a {
+    text-decoration: none;
+    color: white;
+}
+
+.ptmr>a:hover {
+    color: yellow;
+}
+
+.s3 {
+    border: 1px red;
+    min-height: 200px;
+    width: 70%;
+    margin-left: 200px;
+}
+
+.s3h1>a {
+    text-decoration: none;
+    color: white;
+    font-size: xx-large;
+}
+
+.s3h1>a:hover {
+    color: yellow;
+}
+
+.amo {
+    color: white;
+}
+
+.s3h4 {
+    color: white;
+}
+
+.s3h4>a {
+    color: yellow;
+}
+
+.s3h4>a:hover {
+    color: white;
+}
+
+.ppf {
+    color: white;
+}
+
+.ppf>a {
+    text-decoration: none;
+    color: white;
+    font-size: small;
+}
+
+.ppf>a:hover {
+    color: yellow;
+}
+
+.s4 {
+    border: 1px red;
+    min-height: 200px;
+    width: 70%;
+    margin-left: 200px;
+}
+
+.s4h1>a {
+    text-decoration: none;
+    color: white;
+    font-size: xx-large;
+}
+
+.s4h1>a:hover {
+    color: yellow;
+}
+
+.stf {
+    color: white;
+}
+
+.s4h4 {
+    color: white;
+}
+
+.s4h4>a {
+    text-decoration: none;
+    color: white;
+    font-size: large;
+}
+
+.s4h4>a:hover {
+    color: yellow;
+}
+
+.ptr {
+    color: white;
+}
+
+.ptr>a {
+    text-decoration: none;
+    color: white;
+}
+
+.ptr>a:hover {
+    color: yellow;
+    font-size: small;
+}
+
+.s5 {
+    border: 1px red;
+    min-height: 200px;
+    width: 70%;
+    margin-left: 200px;
+}
+
+.fset {
+    background-color: #3D3E44;
+    height: 200px;
+    width: 700px;
+}
+
+.fseth1 {
+    color: white;
+    font-size: xx-large;
+    margin-left: 30px;
+}
+
+.email {
+    color: white;
+    margin-left: 50px;
+}
+
+.ph {
+    margin-left: 50px;
+    height: 35px;
+    width: 60%;
+}
+
+.fsetbtn {
+    border: 1px;
+    height: 50px;
+    width: 20%;
+    color: white;
+    background-color: #CE2D2D;
+}
+
+.fsetbtn:hover {
+    border: 1px solid white;
+}
+
+.s6 {
+    border: 1px red;
+    min-height: 200px;
+    width: 70%;
+    margin-left: 200px;
+}
+
+.s6h1>a {
+    text-decoration: none;
+    color: white;
+    font-size: xx-large;
+}
+
+.s6h1>a:hover {
+    color: yellow;
+}
+
+.gsf {
+    color: white;
+}
+
+.s6h4 {
+    color: white;
+}
+
+.s6h4>a {
+    text-decoration: none;
+    color: yellow;
+    font-size: large;
+}
+
+.s6h4>a:hover {
+    color: white;
+}
+
+.s7 {
+    border: 1px red;
+    min-height: 200px;
+    width: 70%;
+    margin-left: 200px;
+}
+
+.s7h1>a {
+    text-decoration: none;
+    color: white;
+    font-size: xx-large;
+
+}
+
+.s7h1>a:hover {
+    color: yellow;
+}
+
+.isa {
+    color: white;
+
+}
+
+.s7h4 {
+    color: white;
+}
+
+.s7h4>a {
+    text-decoration: none;
+    color: yellow;
+    font-size: large;
+}
+
+.s7h4>a:hover {
+    color: white;
+}
+
+.add {
+    color: white;
+    font-size: small;
+}
+
+.add>a {
+    text-decoration: none;
+    color: white;
+}
+
+.add>a:hover {
+    color: yellow;
+    font-size: small;
+}
+
+.s8 {
+    border: 1px red;
+    min-height: 200px;
+    width: 70%;
+    margin-left: 200px;
+}
+
+.s8h1>a {
+    text-decoration: none;
+    color: white;
+    font-size: xx-large;
+
+}
+
+.s8h1>a:hover {
+    color: yellow;
+}
+
+.ace {
+    color: white;
+}
+
+.s8h4 {
+    color: white;
+}
+
+.s8h4>a {
+    text-decoration: none;
+    color: yellow;
+    font-size: large;
+}
+
+.s8h4>a:hover {
+    color: white;
+}
+
+.pm {
+    color: white;
+    font-size: small;
+}
+
+.pm>a {
+    text-decoration: none;
+    color: white;
+}
+
+.pm>a:hover {
+    color: yellow;
+    font-size: small;
+}
+
+.s9 {
+    border: 1px;
+    min-height: 200px;
+    width: 70%;
+    margin-left: 200px;
+    border-collapse: collapse;
+}
+
+.s9h1>a {
+    text-decoration: none;
+    color: white;
+    font-size: xx-large;
+
+}
+
+.s9h1>a:hover {
+    color: yellow;
+}
+
+.yit {
+    color: white;
+}
+
+.s9h4 {
+    color: white;
+}
+
+.s9h4>a {
+    text-decoration: none;
+    color: yellow;
+    font-size: large;
+}
+
+.s9h4>a:hover {
+    color: white;
+}
+
+.osn {
+    color: white;
+    font-size: small;
+}
+
+.osn>a {
+    text-decoration: none;
+    color: white;
+}
+
+.osn>a:hover {
+    color: yellow;
+    font-size: small;
+}
+
+.s10 {
+    border: 1px;
+    min-height: 200px;
+    width: 70%;
+    margin-left: 200px;
+
+}
+
+.s10h1>a {
+    text-decoration: none;
+    color: white;
+    font-size: xx-large;
+}
+
+.s10h1>a:hover {
+    color: yellow;
+}
+
+.twt {
+    color: white;
+}
+
+.s10h4 {
+    color: white;
+}
+
+.s10h4>a {
+    text-decoration: none;
+    color: yellow;
+    font-size: large;
+}
+
+.s10h4>a:hover {
+    color: white;
+}
+
+.ndc {
+    color: white;
+    font-size: small;
+}
+
+.ndc>a {
+    text-decoration: none;
+    color: white;
+}
+
+.ndc>a:hover {
+    color: yellow;
+    font-size: small;
+}
+
+.s11 {
+    border: 1px;
+    min-height: 200px;
+    width: 70%;
+    margin-left: 200px;
+}
+
+.s11h1>a {
+    text-decoration: none;
+    color: white;
+    font-size: xx-large;
+}
+
+.s11h1>a:hover {
+    color: yellow;
+}
+
+.rto {
+    color: white;
+}
+
+.s11h4 {
+    color: white;
+}
+
+.s11h4>a {
+    text-decoration: none;
+    color: yellow;
+    font-size: large;
+}
+
+.s11h4>a:hover {
+    color: white;
+}
+
+.not {
+    color: white;
+    font-size: small;
+}
+
+.not>a {
+    text-decoration: none;
+    color: white;
+}
+
+.not>a:hover {
+    color: yellow;
+    font-size: small;
+}
+
+.s12 {
+    border: 1px;
+    min-height: 200px;
+    width: 70%;
+    margin-left: 200px;
+}
+
+.s12h1>a {
+    text-decoration: none;
+    color: white;
+    font-size: xx-large;
+}
+
+.s12h1>a:hover {
+    color: yellow;
+}
+
+.tal {
+    color: white;
+}
+
+.s12h4 {
+    color: white;
+}
+
+.s12h4>a {
+    text-decoration: none;
+    color: yellow;
+    font-size: large;
+}
+
+.s12h4>a:hover {
+
+    color: white;
+}
+
+.udp {
+    color: white;
+    font-size: small;
+}
+
+.udp>a {
+    text-decoration: none;
+    color: white;
+}
+
+.udp>a:hover {
+    color: yellow;
+    font-size: small;
+}
+
+.s13 {
+    border: 1px;
+    min-height: 200px;
+    width: 70%;
+    margin-left: 200px;
+}
+
+.s13h1>a {
+    text-decoration: none;
+    color: white;
+    font-size: xx-large;
+}
+
+.s13h1>a:hover {
+    color: yellow;
+}
+
+.uea {
+    color: white;
+}
+
+.s13h4 {
+    color: white;
+}
+
+.s13h4>a {
+    text-decoration: none;
+    color: yellow;
+    font-size: large;
+}
+
+.s13h4>a:hover {
+    color: white;
+}
+
+.mnc {
+    color: white;
+    font-size: small;
+}
+
+.mnc>a {
+    text-decoration: none;
+    color: white;
+}
+
+.mnc>a:hover {
+    color: yellow;
+    font-size: small;
+}
+
+.s14 {
+    border: 1px;
+    margin-left: 600px;
+    width: 30%;
+    height: 20px;
+}
+
+.next {
+    color: white;
+    font-size: smaller;
+}
+
+.next>a {
+    text-decoration: none;
+    color: yellow;
+}
+
+.next>a:hover {
+    color: white;
+    font-size: small;
+}
+
+.s15 {
+    border: 1px;
+    height: 300px;
+    width: 90%;
+    margin-left: 90px;
+}
+
+.imgdiv {
+    border: 1px;
+    height: 200px;
+    width: 290px;
+    float: left;
+}
+
+.img2 {
+    height: 100px;
+}
+
+.footer1 {
+    border: 1px;
+    width: 150px;
+    height: 150px;
+    margin-left: 300px;
+    float: left;
+    color: white;
+    margin-top: 15px;
+    font-size: large;
+}
+
+
+.footer2 {
+    border: 1px;
+    width: 150px;
+    height: 150px;
+    color: white;
+    font-size: large;
+    float: left;
+    margin-top: 15px;
+}
+
+
+.footer3 {
+    border: 1px;
+    width: 150px;
+    height: 150px;
+    margin-left: 900px;
+    font-size: large;
+    margin-top: 18px;
+}
+
+.f3p1>a {
+    color: white;
+}
+
+.f3p2>a {
+    color: white;
+}
+
+.f3p3>a {
+    color: white;
+}
+
+.f3p4>a {
+    color: white;
+}
+
+.f3p5>a {
+    color: white;
+}
+
+.f3p1>a:hover {
+    color: red;
+}
+
+.f3p1>a:hover {
+    color: red;
+}
+
+.f3p2>a:hover {
+    color: red;
+}
+
+.f3p3>a:hover {
+    color: red;
+}
+
+.f3p5>a:hover {
+    color: red;
+}
+
+.s16 {
+    border: 1px;
+    height: 200px;
+    width: 90%;
+    margin-left: 90px;
+}
+
+.fdiv {
+    border: 1px;
+    height: 100px;
+    width: 620px;
+    margin-top: 15px;
+    float: left;
+}
+
+.fdivh4 {
+    color: grey;
+}
+
+.fdiv2 {
+    border: 1px;
+    height: 70px;
+    width: 400px;
+    margin-top: 15px;
+    margin-left: 670px;
+    color: gray;
+}
+
+.fdivh41>a {
+    color: gray;
+    font-size: small;
+}
+
+.fdivh41>a:hover {
+    color: red;
+}
+
+.fdiv3 {
+    border: 1px;
+    height: 40px;
+    width: 400px;
+    margin-top: 15px;
+    margin-left: 670px;
+}
